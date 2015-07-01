@@ -1,0 +1,2 @@
+-- show orphan organizationbylist
+SELECT a.listname, a.charity_name, a.ein, b.orgid,a.charity_name_slug, b.slug, a.charity_url  FROM organizationbylist a LEFT OUTER JOIN organization b ON b.ein = a.ein WHERE b.orgid IS NULL LIMIT 0, 300

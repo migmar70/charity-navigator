@@ -1,0 +1,35 @@
+.logo {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.charity a {
+	font-weight: normal;
+}
+
+.cn-centered {
+	text-align: center;
+}
+
+label.cn-label {
+	display: block;
+	padding-left: 4px;
+}
+
+input.cn-input {
+	margin-bottom: 10px !important;
+	width: 100% !important;
+}
+
+.authenticated .cn-login {
+	display: none;
+}
+
+
+.ui-controlgroup-horizontal {
+	text-align: center;
+}
+
+.ui-field-contain .ui-controlgroup-controls {
+	width: 100%;
+}

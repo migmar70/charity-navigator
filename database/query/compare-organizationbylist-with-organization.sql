@@ -1,0 +1,2 @@
+-- Compare organizationbylist with organization
+SELECT a.listname, a.charity_name, a.ein, b.orgid,a.charity_name_slug, b.slug  FROM organizationbylist a LEFT OUTER JOIN organization b ON b.ein = a.ein LIMIT 0, 300
